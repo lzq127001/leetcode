@@ -7,6 +7,6 @@ package zuoshen_code;
  */
 
 
-public class minSum {
+public class MinSum {
 
 }
