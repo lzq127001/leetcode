@@ -6,10 +6,12 @@ package zuoshen_code;
 */
 public class MainTest {
     public static void main(String[] args) {
-        Stack stack = new Stack(3);
-        stack.push(1);
-        System.out.println(stack.peek());
-        System.out.println(stack.pop());
-        stack.pop();
+        StackToQueue queue = new StackToQueue();
+        queue.push(3);
+        queue.push(6);
+        queue.push(10);
+        System.out.println(queue.poll());
+        System.out.println(queue.poll());
+        System.out.println(queue.poll());
     }
 }
