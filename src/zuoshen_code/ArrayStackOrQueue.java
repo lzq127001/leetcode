@@ -10,7 +10,6 @@ import com.sun.org.apache.bcel.internal.generic.RET;
 
 public class ArrayStackOrQueue {
     public static void main(String[] args) {
-
     }
 }
 
