@@ -1,4 +1,7 @@
 package zuoshen_code;
+
+import java.util.Arrays;
+
 /**
 * @Auther lizequn
 * @Date 2020/12/30
@@ -6,12 +9,13 @@ package zuoshen_code;
 */
 public class MainTest {
     public static void main(String[] args) {
-        StackToQueue queue = new StackToQueue();
-        queue.push(3);
-        queue.push(6);
-        queue.push(10);
-        System.out.println(queue.poll());
-        System.out.println(queue.poll());
-        System.out.println(queue.poll());
+        Integer i = new Integer(100);
+        Integer j = 100;
+        System.out.println(i == j);
+
+        Integer a = 100;
+        Integer b = 100;
+        System.out.println(a == b);
+
     }
 }
