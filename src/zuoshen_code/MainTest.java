@@ -17,5 +17,8 @@ public class MainTest {
         Integer b = 100;
         System.out.println(a == b);
 
+        System.out.println("-------------");
+        System.out.println(1 << 2);
+
     }
 }

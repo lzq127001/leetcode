@@ -9,16 +9,6 @@ import java.util.Stack;
  */
 public class PreInPostTraversal {
 
-    public static class Node {
-        public int value;
-        public Node left;
-        public Node right;
-
-        public Node(int data) {
-            this.value = data;
-        }
-    }
-
     // 先序遍历 递归版本
     public static void preOrderRecur(Node head) {
         if (head == null) {
